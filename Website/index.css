@@ -1,7 +1,7 @@
-@font-face { font-family: orator; src: url('/fonts/orator.otf'); } 
-@font-face { font-family: sig ; src: url('/fonts/Signerica_Thin.ttf'); } 
-@font-face { font-family: lato ; src: url('/fonts/Lato-Thin.ttf'); } 
-@font-face { font-family: shop ; src: url('/fonts/shop.ttf'); } 
+@font-face { font-family: orator; src: url('fonts/orator.otf'); } 
+@font-face { font-family: sig ; src: url('fonts/Signerica_Thin.ttf'); } 
+@font-face { font-family: lato ; src: url('fonts/Lato-Thin.ttf'); } 
+@font-face { font-family: shop ; src: url('fonts/shop.ttf'); } 
 
 body
 {
