@@ -1,0 +1,157 @@
+@font-face { font-family: orator; src: url('/Website/fonts/orator.otf'); } 
+@font-face { font-family: sig ; src: url('/Website/fonts/Signerica_Thin.ttf'); } 
+@font-face { font-family: lato ; src: url('/Website/fonts/Lato-Thin.ttf'); } 
+@font-face { font-family: shop ; src: url('/Website/fonts/shop.ttf'); } 
+
+body
+{
+    font-family: "lato";
+    font-size: 20px; 
+    background-color: #FFFFFF ;
+    margin: -8;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffd6d6;
+    width: 101%;
+
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    font-family: "lato";
+    font-size: 14;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover:not(.active) {
+    background-color: #FFBDBD;
+}
+
+.active {
+    background-color: #FFBDBD;}
+
+.banner{
+    text-align: center;
+    font-family: "sig";
+    font-size: 70px;
+    height:100px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.banner img{
+     display:block;
+     margin:0 auto;
+}
+.portmain{
+    width: 100%;
+    float: left;
+    height:750px;
+}
+.bake{
+    display: block;
+    float: left;
+}
+.derivative{
+    display: block;
+    float: left;
+}
+audio
+{
+    opacity:0;
+    
+}
+.eattitle{
+    font-family: "lato";
+    padding-top:5px;
+    width:392px;
+    position: relative;
+    float:left;
+    height: 20px;
+    display:block;
+}
+.eatbody
+{
+    font-family: "lato";
+    margin-top:30px;
+    border: 1px solid #ffffff;
+    -moz-box-shadow: 0 0 20px 1px #FFC0B6;
+    -webkit-box-shadow: 0 0 20px 1px#FFC0B6;
+    box-shadow: 0 0 20px 4px #FFC0B6;
+    margin-left: 35px;
+    text-align: center;
+    padding-top:10px;
+    height:300px;
+}
+.eat{
+    width:24.4%;
+    display:block;
+    text-align: center;
+    float:left;
+}
+.blank{
+    color:white;
+}
+.aboutleft{
+    padding-top:10px;
+    font-family: lato;
+    text-align: center;
+    font-size:30px;
+    float: left;
+    display: block;
+    width:25%;
+    margin-left: 30px;
+}
+.aboutleft img{
+    width:100%;
+}
+.aboutright{
+    padding-top:40px;
+    font-family: lato;
+    margin-left:30px;
+    width: 67%;
+    float:left;
+}
+.about{
+    float:left;
+    width:100%;
+}
+.credits{
+    font-family: lato;
+    margin-left:20px;
+}
+.credits a{
+    text-decoration: none;
+    color:#FFBDBD;
+}
+.credits a:hover {
+    text-decoration: underline;
+}
+.aboutright2{
+    padding-top:40px;
+    font-family: lato;
+    margin-left:30px;
+    width: 67%;
+    float:left;
+    text-align: right;
+}
+.recipeheader{
+font-size: 30;
+}
+.aboutright ul li{
+    list-style-type: none;
+}
+.home{
+    padding-left: 25px;
+}
